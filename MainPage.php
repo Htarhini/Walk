@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
 <head>
 <title>Main Page</title>
@@ -10,3 +11,6 @@
 </body>
 </html>
 
+=======
+<P>hello my world</p>
+>>>>>>> cdf02187d5cd57347cfb5b840b720d33f1551122
