@@ -90,7 +90,7 @@ input[type=submit]:hover { background: #333; }
 
 /***** Widgets *****/
 
-.mh-widget-title { font-size: 14px; font-size: 0.875rem; color: #fff; padding: 10px 15px; background: #005d9d; border-bottom: none; }
+.mh-widget-title { font-size: 14px; font-size: 0.875rem; color: #ffe121; padding: 10px 15px; background: #000; border-bottom: none; }
 .mh-widget-title a { color: #fff; }
 
 /***** MH Slider Widget *****/

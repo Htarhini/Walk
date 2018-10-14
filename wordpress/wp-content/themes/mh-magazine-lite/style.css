@@ -118,10 +118,10 @@ select { max-width: 100%; }
 .mh-main-nav { text-transform: uppercase; border-bottom: 5px solid #000; }
 .mh-main-nav li { float: left; position: relative; font-weight: 700; }
 .mh-main-nav li:hover { background: #000; }
-.mh-main-nav li:hover a { color: #fff; }
+.mh-main-nav li:hover a { color: #ffff; }
 .mh-main-nav li a { display: block; color: #fff; padding: 10px 20px; border-left: 1px solid rgba(255, 255, 255, 0.1); }
 .mh-main-nav li:first-child a, .mh-main-nav .sub-menu li a { border: none; }
-.mh-main-nav li:first-child a, .mh-main-nav .sub-menu li a:hover {border-bottom: 2px solid #ffe121; color:#ffe121 !important;padding-bottom: 4px;}
+.mh-main-nav li:hover a, .mh-main-nav .sub-menu li a {border-bottom: 2px solid #ffe121; color:#ffe121 !important;padding-bottom: 4px;}
 .mh-main-nav ul li:hover > ul { display: block; background: #2a2a2a; z-index: 9999; }
 .mh-main-nav ul ul { display: none; position: absolute; }
 .mh-main-nav ul ul li { width: 100%; min-width: 16em; }
