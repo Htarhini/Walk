@@ -985,6 +985,7 @@ function wp_default_styles( &$styles ) {
 	$styles->add( 'site-icon',           "/wp-admin/css/site-icon$suffix.css" );
 	$styles->add( 'l10n',                "/wp-admin/css/l10n$suffix.css" );
 	$styles->add( 'code-editor',         "/wp-admin/css/code-editor$suffix.css", array( 'wp-codemirror' ) );
+	$styles->add( 'Walk',              "/wp-admin/css/common$suffix.css" );
 
 	$styles->add( 'wp-admin', false, array( 'dashicons', 'common', 'forms', 'admin-menu', 'dashboard', 'list-tables', 'edit', 'revisions', 'media', 'themes', 'about', 'nav-menus', 'widgets', 'site-icon', 'l10n' ) );
 
