@@ -1,0 +1,2 @@
+1-Plugin.php you can check the main functions;
+2-Default-filters where you can add your hook and your function with add_Action();

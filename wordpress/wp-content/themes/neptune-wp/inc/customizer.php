@@ -11,6 +11,8 @@
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
 function neptune_wp_customize_register( $wp_customize ) {
+
+
 	$wp_customize->get_setting( 'blogname' )->transport         = 'postMessage';
 	$wp_customize->get_setting( 'blogdescription' )->transport  = 'postMessage';
 	$wp_customize->get_setting( 'header_textcolor' )->transport = 'postMessage';
@@ -25,6 +27,7 @@ function neptune_wp_customize_register( $wp_customize ) {
 			'render_callback' => 'neptune_wp_customize_partial_blogdescription',
 		) );
 	}
+
 }
 add_action( 'customize_register', 'neptune_wp_customize_register' );
 
@@ -53,6 +56,7 @@ function neptune_sections( $wp_customize ) {
  		'title'       => __( 'Theme Options', 'neptune-wp' ),
  		'priority'    => 10,
  	) );
+
 
 }
 
@@ -240,3 +244,4 @@ function neptune_wp_customize_preview_js() {
 	wp_enqueue_script( 'neptune-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
 add_action( 'customize_preview_init', 'neptune_wp_customize_preview_js' );
+

@@ -193,6 +193,9 @@ require get_template_directory() . '/inc/template-functions.php';
 /**
  * Customizer additions.
  */
+
+require_once( trailingslashit( get_template_directory() ) . '/inc/upsell/class-customize.php' );
+
 require get_template_directory() . '/inc/customizer.php';
 
 /**
@@ -210,6 +213,7 @@ require get_template_directory() . '/inc/tgm-include-plugins.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
 
 /**
  * Metabox

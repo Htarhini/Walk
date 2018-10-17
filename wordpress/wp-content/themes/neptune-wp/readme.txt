@@ -24,9 +24,11 @@ Download Advanced Custom Fields and Kirki Plugin (Highly Recomended)
 Images:
 
 All Images 
-License: https://stocksnap.io/license
-https://stocksnap.io/photo/FYL4KBC2ON
+
+https://pixabay.com/en/person-woman-asian-female-801823/
+license: https://pixabay.com/en/service/terms/#usage
 https://stocksnap.io/photo/8QP067ARU0
+License: https://stocksnap.io/license
 
 
 * Based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
