@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=6k2doaZoOnc&list=PLD8nQCAhR3tTVcreVOlFteq0piaXq1jjk&index=6
+
+
+
+-- to find all hooks : https://adambrown.info/p/wp_hooks/hook
